@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_myappt"
+            android:icon="@drawable/appointment"
+            android:title="My Appointment" />
+        <item
+            android:id="@+id/home_specials"
+            android:icon="@drawable/special"
+            android:title="Specials" />
+        <item
+            android:id="@+id/home_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/home_help"
+            android:icon="@drawable/help1"
+            android:title="Help" />
+        <item
+            android:id="@+id/home_feedback"
+            android:icon="@drawable/feedback1"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/home_aboutus"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/home_signout"
+            android:icon="@drawable/signout"
+            android:title="Sign Out" />
+    </group>
+
+</menu>
